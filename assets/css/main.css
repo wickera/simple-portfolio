@@ -8,7 +8,7 @@ body {
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 3rem;
   color: #878787;
 }
 
@@ -16,20 +16,20 @@ h4 {
   font-style: italic;
   font-weight: 400;
   font-family: 'Crimson';
-  font-size: 20px;
-  padding: 15px;
-  line-height: 30px;
+  font-size: 2rem;
+  padding: 2rem;
+  line-height: 3rem;
 }
 
 .social a i {
-  height: 40px;
-  width: 40px;
+  height: 4rem;
+  width: 4rem;
   border: 1px solid #fff;
-  line-height: 40px;
-  margin: 0 10px;
+  line-height: 4rem;
+  margin: 0 1rem;
   color: #fff;
-  font-size: 20px;
-  padding-bottom: 20px;
+  font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
 .social a:hover i {
@@ -44,7 +44,7 @@ h4 {
   }
 
   .btn-group-vertical {
-    padding: 20px 87.5px;
+    padding: 2rem 8rem;
   }
 
   .info {
@@ -64,9 +64,9 @@ h4 {
   border: 1px solid #fff;
   border-radius: 0px !important;
   transition: all 0.4s ease-in-out;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   font-family: 'Crimson';
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -78,7 +78,7 @@ h4 {
 
 p {
   color: #fff;
-  font-size: 16px;
+  font-size: 1.5rem;
 }
 
 .fixed-right {
@@ -96,7 +96,7 @@ p {
 
 /*Home Style*/
 .logo {
-  padding-top: 17px;
+  padding-top: 1.4rem;
   text-transform: uppercase;
 }
 
@@ -109,38 +109,38 @@ p {
 }
 
 footer {
-  padding: 22px 0 10px 0;
+  padding: 2rem 0 1rem 0;
   font-style: italic;
 }
 
 .back {
-  width: 170px;
+  width: 17rem;
   font-family: 'Crimson';
-  font-size: 17px;
+  font-size: 1.7rem;
   font-style: italic;
   text-align: center;
   display: block;
   clear: both;
-  margin-top: 33px;
+  margin-top: 3rem;
 }
 
 .back i {
-  margin-left: -40px;
-  margin-right: 17px;
-  font-size: 20px;
+  margin-left: -4rem;
+  margin-right: 1.7rem;
+  font-size: 2rem;
 }
 
 .form-control {
   background: transparent;
   color: white;
-  margin-top: 30px;
+  margin-top: 3rem;
   width: 75%;
 }
 
 .btn {
-  padding: 10px 60px;
-  height: 45px;
-  font-size: 16px;
+  padding: 1rem 6rem;
+  height: 4.5rem;
+  font-size: 1.6rem;
 }
 
 .btn-group-vertical {
@@ -149,17 +149,17 @@ footer {
 
 .about {
   font-family: 'Josefin Sans';
-  font-size: 32px;
+  font-size: 3rem;
 }
 .form-control {
   border-radius: 0;
   font-family: 'Crimson';
-  font-size: 16px;
+  font-size: 1.6rem;
   letter-spacing: 1px;
 }
 
 .page-title {
-  font-size: 32px;
+  font-size: 3rem;
   font-family: 'Josefin Sans';
 }
 
@@ -173,7 +173,7 @@ footer {
 }
 
 .bottom {
-  padding-right: 20px;
+  padding-right: 2rem;
 }
 
 .page-title {
@@ -192,7 +192,7 @@ footer {
 }
 
 .social {
-  padding-bottom: 15px;
+  padding-bottom: 1.5rem;
 }
 
 .contact-form {
@@ -212,13 +212,13 @@ footer {
 }
 
 .subject {
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .submit {
   font-family: 'Crimson';
-  font-size: 16px;
-  margin-top: 44px;
+  font-size: 1.6rem;
+  margin-top: 4.4rem;
   font-style: normal;
   letter-spacing: 1px;
 }
@@ -250,12 +250,12 @@ a:hover {
   padding: 0 7px;
   font-style: italic;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 2rem;
   color: #fff;
-  line-height: 30px;
+  line-height: 3rem;
   font-family: 'Crimson';
-  margin-top: 15px;
-  padding-right: 40px;
+  margin-top: 1rem;
+  padding-right: 4rem;
   letter-spacing: 0.5px;
 }
 .page-title:after {
@@ -271,7 +271,7 @@ a:hover {
 #watermark .marker {
   position: absolute;
   color: #fff;
-  font-size: 60px;
+  font-size: 6rem;
   opacity: 0.1;
   font-family: 'Josefin Sans';
   text-transform: uppercase;
@@ -288,63 +288,38 @@ a:hover {
   color: #f9f9f9;
 }
 
-#owl-demo .item img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.owl-theme .owl-controls {
-  margin-top: 10px;
-  margin-right: 10px;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: calc(44% - 40px);
-}
-
-.owl-next {
-  right: 0;
-  padding-right: 1px;
-}
-
-.owl-prev {
-  left: 0;
-  padding-left: 1px;
-}
-
-.owl-theme .owl-controls .owl-nav [class*='owl-'] {
-  position: absolute;
-  border-radius: 0px;
-  font-size: 21px;
-  padding: 15px 20px;
-  margin: 0px;
-  background-color: #fff;
-}
-
-.owl-theme .owl-controls .owl-nav [class*='owl-'] i {
-  color: #333;
-}
-
-.owl-theme .owl-controls .owl-nav [class*='owl-']:hover {
-  background-color: #bb9e7d;
-  border-color: #bb9e7d;
-}
-.owl-theme .owl-controls .owl-nav [class*='owl-']:hover i {
-  color: #fff;
-}
-@media (max-width: 1024px) and (orientation: landscape) {
-  .main {
-    height: auto;
-  }
-}
-/* .custom_btn {
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-} */
 .show {
   display: block;
+}
+/* Media Queries */
+@media screen and (max-width: 999px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  #index_left {
+    display: none;
+  }
+
+  .mobile {
+    margin: auto;
+    width: 47%;
+  }
+
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .mobile {
+    display: none;
+  }
 }
 
 /* Extra Color Options */
