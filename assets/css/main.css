@@ -1,10 +1,10 @@
 body {
-  background-color: #060930;
+  background-color: #121414;
   font-family: 'Crimson Text';
 }
 
 .main {
-  background-color: #060930;
+  background-color: #121414;
 }
 
 h4 {
@@ -15,7 +15,7 @@ h4 {
 .home-description {
   font-style: italic;
   font-weight: 400;
-  font-family: 'Crimson';
+  font-family: 'Rambla', sans-serif;
   font-size: 2rem;
   padding: 2rem;
   line-height: 3rem;
@@ -48,17 +48,18 @@ h4 {
   }
 
   .info {
-    font-family: 'Crimson';
-    line-height: 27px;
-    font-size: 17px;
-    padding-top: 10px;
-    padding-right: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    letter-spacing: 0.4px;
   }
 }
-.img-rabbit {
+.img-main {
   width: 100%;
 }
-.btn-rabbit {
+.btn-main {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
@@ -70,15 +71,20 @@ h4 {
   font-weight: 700;
 }
 
-.btn-rabbit:hover {
+.btn-main:hover {
   color: #fff;
+  font-weight: 700;
   background-color: #54577c;
   border-color: #54577c;
 }
 
 p {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 2.5rem;
   color: #fff;
   font-size: 1.5rem;
+  padding-top: 1rem;
+  letter-spacing: 0.4px;
 }
 
 .fixed-right {
@@ -241,7 +247,8 @@ a {
 
 a:hover {
   cursor: pointer;
-  color: #54577c;
+  color: #fff;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -253,7 +260,7 @@ a:hover {
   font-size: 2rem;
   color: #fff;
   line-height: 3rem;
-  font-family: 'Crimson';
+  font-family: 'Rambla', sans-serif;
   margin-top: 1rem;
   padding-right: 4rem;
   letter-spacing: 0.5px;
@@ -287,23 +294,24 @@ a:hover {
   background-color: #313131;
   color: #f9f9f9;
 }
-
 .show {
   display: block;
 }
+.code {
+  display: table;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 /* Media Queries */
 @media screen and (max-width: 999px) {
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-  #index_left {
-    display: none;
-  }
-
   .mobile {
     margin: auto;
-    width: 47%;
+  }
+
+  #index_left {
+    display: none;
   }
 
   .home {
@@ -312,12 +320,33 @@ a:hover {
     align-items: center;
   }
 
-  .row {
-    margin: 0 !important;
+  .desktop-img {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-paragraph {
+    text-align: justify;
+  }
+
+  .paragraph-img {
+    width: 27% !important;
+    margin: 1rem;
+    float: right;
+  }
+
+  .about-img {
+    margin-bottom: 4rem;
   }
 }
+
 @media screen and (min-width: 1000px) {
   .mobile {
+    display: none;
+  }
+
+  .paragraph-img {
     display: none;
   }
 }
